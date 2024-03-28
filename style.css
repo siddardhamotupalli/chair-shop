@@ -1,0 +1,53 @@
+.body{
+    
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.image{
+    width: 100%;
+    float: right;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    
+}
+
+.section-2{
+    display: grid;
+    grid-template-columns:1fr 700px;
+    column-gap: 20px;
+    
+}
+
+
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cart{
+    display: flex;
+    float: inline;
+}
+
+a{
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
