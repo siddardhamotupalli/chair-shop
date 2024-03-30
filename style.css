@@ -1,52 +1,58 @@
 .body{
-  margine-left:200px;
-  margine-right:200px;
 
+    margin-top: 0%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.header{
+.header-1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
 }
-.image{
-    width: 100%;
-    float: right;
+
+.hero-description{
+    margin-top: 100px;
 }
-.section-1{
+
+.hero-para{
+    padding-right: 70px;
+}
+
+
+
+.header-2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
-    
+    gap: 20px;
 }
 
 .section-2{
     display: grid;
-    grid-template-columns:1fr 700px;
-    column-gap: 20px;
-    
+    grid-template-columns: repeat(3,1fr);
 }
-
 
 .section-3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 
+.chair-1{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.para{
+    grid-column:2/-1;
+    justify-content: space-between;
+}
+
 .cart{
+    display: block;
     display: flex;
-    float: inline;
+    gap: 200px;
 }
 
-a{
+.add{
     padding-top: 15px;
-    padding-left: 100px;
 }
-
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-
-
-
